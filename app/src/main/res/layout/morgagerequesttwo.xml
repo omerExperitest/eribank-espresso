@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/makePaymentView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/typeOfLoanTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="Type Of Loan"
+                android:textSize="16sp" />
+
+            <ListView
+                android:id="@+id/typeOfLoanListView"
+                android:layout_width="fill_parent"
+                android:layout_height="260dp"
+                android:background="#FFFFFF"
+                android:cacheColorHint="#00000000"
+                android:choiceMode="singleChoice" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/numberOfYearsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Number Of Years"
+                android:textSize="16sp" />
+
+            <ListView
+                android:id="@+id/numberOfYearsListView"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:background="#FFFFFF"
+                android:cacheColorHint="#00000000"
+                android:choiceMode="singleChoice" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/typeOfOccupationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Type Of Occupation"
+                android:textSize="16sp" />
+
+            <ListView
+                android:id="@+id/typeOfOccupationListView"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:background="#FFFFFF"
+                android:cacheColorHint="#00000000"
+                android:choiceMode="singleChoice" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/yearlyIncomeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Yearly Income"
+                android:textSize="16sp" />
+
+            <ListView
+                android:id="@+id/yearlyIncomeListView"
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:background="#FFFFFF"
+                android:cacheColorHint="#00000000"
+                android:choiceMode="singleChoice" >
+            </ListView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="2"
+                    android:text="Back" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
