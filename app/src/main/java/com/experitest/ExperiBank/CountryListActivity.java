@@ -15,7 +15,6 @@ import android.widget.ListView;
 public class CountryListActivity extends Activity {
 	ListView countryListView;
 	private ArrayAdapter<String> listAdapter;
-	private String demoString = "";
 	private String[] countriesArray = new String[] { "India", "USA", "Iceland", "Greenland", "Switzerland", "Norway", "New Zealand", "Greece", "Italy", "Ireland", "China", "Japan", "France", "Russia", "Australlia", "Canada", "Brazil", "Indonesia",
 			"Nigeria", "Bangladesh","some country", "Philippines", "Vietnam", "Ethiopia", "Egypt", "Germany", "Iran", "Turkey", "Thailand", "United Kingdom", "South Africa", "South Korea", "Myanmar", "Spain", "Colombia", "Ukraine", "Tanzania",
 			"Argentina" };
